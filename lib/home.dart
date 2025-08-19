@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class home extends StatefulWidget {
-  const home({super.key});
+class Home extends StatefulWidget {
+  const Home({super.key});
 
   @override
-  _homeState createState() => _homeState();
+  _HomeState createState() => _HomeState();
 }
 
-class _homeState extends State<home> {
+class _HomeState extends State<Home> {
   String _selectedPage = "Home";
   final PageController _pageController = PageController();
 
@@ -314,7 +314,6 @@ class _homeState extends State<home> {
                     ],
                   ),
                   SizedBox(height: screenHeight * 0.1),
-                  //add here
                 ],
               ),
             ),
@@ -817,9 +816,7 @@ class _homeState extends State<home> {
                               padding: EdgeInsets.all(0),
                               backgroundColor: Colors.black,
                             ),
-                            onPressed: () {
-                              // your action here
-                            },
+                            onPressed: () {},
                             child: Icon(
                               Icons.arrow_forward_rounded,
                               size: 30,
@@ -864,11 +861,14 @@ class _homeState extends State<home> {
                                 mainAxisAlignment: MainAxisAlignment.end,
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
-                                  Image.asset(
-                                    'assets/images/Armchair.png',
-                                    width: screenWidth * 0.15,
-                                    fit: BoxFit.cover,
+                                  Center(
+                                    child: Image.asset(
+                                      'assets/images/Armchair.png',
+                                      width: screenWidth * 0.12,
+                                      fit: BoxFit.cover,
+                                    ),
                                   ),
+
                                   Text(
                                     'Armchair',
                                     style: TextStyle(
@@ -888,8 +888,8 @@ class _homeState extends State<home> {
                                       Text(
                                         'Add to Card',
                                         style: TextStyle(
-                                          fontSize: screenWidth * 0.014,
-                                          fontWeight: FontWeight.normal,
+                                          fontSize: screenWidth * 0.011,
+                                          fontWeight: FontWeight.bold,
                                         ),
                                       ),
                                       Spacer(),
@@ -946,11 +946,14 @@ class _homeState extends State<home> {
                                 mainAxisAlignment: MainAxisAlignment.end,
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
-                                  Image.asset(
-                                    'assets/images/Armchair.png',
-                                    width: screenWidth * 0.15,
-                                    fit: BoxFit.cover,
+                                  Center(
+                                    child: Image.asset(
+                                      'assets/images/Armchair.png',
+                                      width: screenWidth * 0.12,
+                                      fit: BoxFit.cover,
+                                    ),
                                   ),
+
                                   Text(
                                     'Armchair',
                                     style: TextStyle(
@@ -970,8 +973,8 @@ class _homeState extends State<home> {
                                       Text(
                                         'Add to Card',
                                         style: TextStyle(
-                                          fontSize: screenWidth * 0.014,
-                                          fontWeight: FontWeight.normal,
+                                          fontSize: screenWidth * 0.011,
+                                          fontWeight: FontWeight.bold,
                                         ),
                                       ),
                                       Spacer(),
@@ -1028,11 +1031,14 @@ class _homeState extends State<home> {
                                 mainAxisAlignment: MainAxisAlignment.end,
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
-                                  Image.asset(
-                                    'assets/images/Armchair.png',
-                                    width: screenWidth * 0.15,
-                                    fit: BoxFit.cover,
+                                  Center(
+                                    child: Image.asset(
+                                      'assets/images/Armchair.png',
+                                      width: screenWidth * 0.12,
+                                      fit: BoxFit.cover,
+                                    ),
                                   ),
+
                                   Text(
                                     'Armchair',
                                     style: TextStyle(
@@ -1052,8 +1058,8 @@ class _homeState extends State<home> {
                                       Text(
                                         'Add to Card',
                                         style: TextStyle(
-                                          fontSize: screenWidth * 0.014,
-                                          fontWeight: FontWeight.normal,
+                                          fontSize: screenWidth * 0.011,
+                                          fontWeight: FontWeight.bold,
                                         ),
                                       ),
                                       Spacer(),
@@ -1110,11 +1116,14 @@ class _homeState extends State<home> {
                                 mainAxisAlignment: MainAxisAlignment.end,
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
-                                  Image.asset(
-                                    'assets/images/Armchair.png',
-                                    width: screenWidth * 0.15,
-                                    fit: BoxFit.cover,
+                                  Center(
+                                    child: Image.asset(
+                                      'assets/images/Armchair.png',
+                                      width: screenWidth * 0.12,
+                                      fit: BoxFit.cover,
+                                    ),
                                   ),
+
                                   Text(
                                     'Armchair',
                                     style: TextStyle(
@@ -1134,8 +1143,8 @@ class _homeState extends State<home> {
                                       Text(
                                         'Add to Card',
                                         style: TextStyle(
-                                          fontSize: screenWidth * 0.014,
-                                          fontWeight: FontWeight.normal,
+                                          fontSize: screenWidth * 0.011,
+                                          fontWeight: FontWeight.bold,
                                         ),
                                       ),
                                       Spacer(),
@@ -1198,11 +1207,14 @@ class _homeState extends State<home> {
                                 mainAxisAlignment: MainAxisAlignment.end,
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
-                                  Image.asset(
-                                    'assets/images/Armchair.png',
-                                    width: screenWidth * 0.15,
-                                    fit: BoxFit.cover,
+                                  Center(
+                                    child: Image.asset(
+                                      'assets/images/Armchair.png',
+                                      width: screenWidth * 0.12,
+                                      fit: BoxFit.cover,
+                                    ),
                                   ),
+
                                   Text(
                                     'Armchair',
                                     style: TextStyle(
@@ -1222,8 +1234,8 @@ class _homeState extends State<home> {
                                       Text(
                                         'Add to Card',
                                         style: TextStyle(
-                                          fontSize: screenWidth * 0.014,
-                                          fontWeight: FontWeight.normal,
+                                          fontSize: screenWidth * 0.011,
+                                          fontWeight: FontWeight.bold,
                                         ),
                                       ),
                                       Spacer(),
@@ -1280,11 +1292,14 @@ class _homeState extends State<home> {
                                 mainAxisAlignment: MainAxisAlignment.end,
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
-                                  Image.asset(
-                                    'assets/images/Armchair.png',
-                                    width: screenWidth * 0.15,
-                                    fit: BoxFit.cover,
+                                  Center(
+                                    child: Image.asset(
+                                      'assets/images/Armchair.png',
+                                      width: screenWidth * 0.12,
+                                      fit: BoxFit.cover,
+                                    ),
                                   ),
+
                                   Text(
                                     'Armchair',
                                     style: TextStyle(
@@ -1304,8 +1319,8 @@ class _homeState extends State<home> {
                                       Text(
                                         'Add to Card',
                                         style: TextStyle(
-                                          fontSize: screenWidth * 0.014,
-                                          fontWeight: FontWeight.normal,
+                                          fontSize: screenWidth * 0.011,
+                                          fontWeight: FontWeight.bold,
                                         ),
                                       ),
                                       Spacer(),
@@ -1362,11 +1377,14 @@ class _homeState extends State<home> {
                                 mainAxisAlignment: MainAxisAlignment.end,
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
-                                  Image.asset(
-                                    'assets/images/Armchair.png',
-                                    width: screenWidth * 0.15,
-                                    fit: BoxFit.cover,
+                                  Center(
+                                    child: Image.asset(
+                                      'assets/images/Armchair.png',
+                                      width: screenWidth * 0.12,
+                                      fit: BoxFit.cover,
+                                    ),
                                   ),
+
                                   Text(
                                     'Armchair',
                                     style: TextStyle(
@@ -1386,8 +1404,8 @@ class _homeState extends State<home> {
                                       Text(
                                         'Add to Card',
                                         style: TextStyle(
-                                          fontSize: screenWidth * 0.014,
-                                          fontWeight: FontWeight.normal,
+                                          fontSize: screenWidth * 0.011,
+                                          fontWeight: FontWeight.bold,
                                         ),
                                       ),
                                       Spacer(),
@@ -1444,11 +1462,14 @@ class _homeState extends State<home> {
                                 mainAxisAlignment: MainAxisAlignment.end,
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
-                                  Image.asset(
-                                    'assets/images/Armchair.png',
-                                    width: screenWidth * 0.15,
-                                    fit: BoxFit.cover,
+                                  Center(
+                                    child: Image.asset(
+                                      'assets/images/Armchair.png',
+                                      width: screenWidth * 0.12,
+                                      fit: BoxFit.cover,
+                                    ),
                                   ),
+
                                   Text(
                                     'Armchair',
                                     style: TextStyle(
@@ -1468,8 +1489,8 @@ class _homeState extends State<home> {
                                       Text(
                                         'Add to Card',
                                         style: TextStyle(
-                                          fontSize: screenWidth * 0.014,
-                                          fontWeight: FontWeight.normal,
+                                          fontSize: screenWidth * 0.011,
+                                          fontWeight: FontWeight.bold,
                                         ),
                                       ),
                                       Spacer(),
@@ -1548,7 +1569,7 @@ class _homeState extends State<home> {
                         children: [
                           SizedBox(width: screenWidth * 0.02),
                           Text(
-                            'Our mission is to craft timeless pieces that blend\nbeauty, comfort, and practicality, bringing warmth\nand personality to every corner of your home.',
+                            'Our mission is to craft timeless pieces that blend\nbeauty, comfort, and practicality, bringing warmth\nand personality to every corner of your Home.',
                             style: TextStyle(
                               fontSize: screenWidth * 0.015,
                               fontWeight: FontWeight.normal,

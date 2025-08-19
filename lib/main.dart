@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:glory/home.dart';
+import 'package:glory/logIn&signUp/SignUp.dart';
 
 void main() {
-  runApp(home());
+  runApp(MaterialApp(debugShowCheckedModeBanner: false, home: SignUp()));
 }
